@@ -1,0 +1,238 @@
+/* Navigation bar styles */
+nav {
+  background-color: #333; 
+  height: 60px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 1px; 
+}
+
+/* Navigation links styles */
+nav a {
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+/* Navigation link hover styles */
+nav a:hover {
+  background-color: darkgrey; 
+  color: darkred; 
+}
+
+/* Search bar styles */
+.search_bar {
+  display: flex; 
+  margin-right: 5%; 
+  width: 10%; 
+}
+
+/* Logo styles */
+.logo img {
+  float: left; 
+  width: 90px; 
+  height: 70px; 
+  margin-top: 0; 
+  margin-left: 2px; 
+}
+
+/* Styles for the title sentence */
+.title_sentence {
+color: black;
+text-align: center;
+}
+.title_sentence h1 {
+font-size: 48px;
+margin-bottom: 30px;
+color: white;
+font-weight: bold;
+background-color: darkred; 
+padding-bottom: 1rem;
+}
+
+/* Style for the history section */
+.history {
+  background-color: #f5f5f5;
+ padding: 20px;
+}
+.history h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.history p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.history ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+.history li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Style for the engineering innovations section */
+.engineering_innovations {
+  background-color: #fff;
+  padding: 20px;
+}
+.engineering_innovations h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.engineering_innovations p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.engineering_innovations ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+.engineering_innovations li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Style for the design evolution section */
+.design_evolution {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.design_evolution h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.design_evolution p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.design_evolution ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+.design_evolution li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Style for the racing legacy section */
+.racing_legacy {
+  background-color: #fff;
+  padding: 20px;
+}
+.racing_legacy h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.racing_legacy p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.racing_legacy ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+.racing_legacy li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Styles the scroll to top button */
+#scrollfun {
+ position: fixed; 
+ bottom: 20px; 
+ right: 20px; 
+ z-index: 9999; 
+ background-color: black; 
+ color: white; 
+ border: none; 
+ padding: 10px 20px; 
+ font-size: 16px; 
+ cursor: pointer; 
+}
+
+/* Styles the hover state of the scroll to top button */
+#scrollfun:hover {
+  background-color: lightblue; 
+}
+
+/* Styles the footer */
+footer {
+ background-color: #333;
+ color: white;
+ padding: 30px 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+/* Styles the links in the footer */
+footer a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ margin: 10px;
+ display: block;
+}
+
+/* Changes the text color of the link on hover */
+footer a:hover {
+ color: #aaa;
+}
+
+/* Column Styles */
+.col-8 {
+ text-align: center;
+}
+.col-2, .col-1 {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.col-2 a, .col-1 a {
+ margin: 5px 0;
+}
+
+/* Follow Us Icons Styles */
+.iconss {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.iconss a {
+ color: white;
+ font-size: 24px;
+ margin-right: 10px;
+ transition: all 0.3s ease-in-out;
+}
+.iconss a:hover {
+ color: #aaa;
+}
+.fa-brands {
+ font-size: 24px;
+}
+.fa-instagram:hover {
+ color: #e4405f;
+}
+.fa-facebook:hover {
+ color: #3b5998;
+}
+.fa-twitter:hover {
+ color: #1da1f2;
+}

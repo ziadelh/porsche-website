@@ -1,0 +1,240 @@
+/* Navigation bar styles */
+nav {
+  background-color: #333; 
+  height: 60px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 1px; 
+}
+
+/* Navigation links styles */
+nav a {
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+/* Navigation link hover styles */
+nav a:hover {
+  background-color: darkgrey; 
+  color: darkred; 
+}
+
+/* Search bar styles */
+.search_bar {
+  display: flex; 
+  margin-right: 5%; 
+  width: 10%; 
+}
+
+/* Logo styles */
+.logo img {
+  float: left; 
+  width: 90px; 
+  height: 70px; 
+  margin-top: 0; 
+  margin-left: 2px; 
+}
+
+/* Style the main content */
+body{
+    background-color:lightgray;
+}
+
+/* Styles for the title sentence */
+.title_sentence {
+color: black;
+text-align: center;
+}
+.title_sentence h1 {
+font-size: 48px;
+margin-bottom: 30px;
+color: white;
+font-weight: bold;
+background-color: darkred;
+padding-bottom: 1rem;
+}
+
+/* Styles for the main content section */
+main {
+margin: 20px;
+}
+
+/* Styles for the latest news section */
+#latest-news {
+margin-bottom: 40px;
+}
+#latest-news h2 {
+font-size: 34px;
+margin-bottom: 20px;
+}
+#latest-news article {
+background-color: white;
+border: 1px solid gray;
+padding: 20px;
+margin-bottom: 20px;
+}
+#latest-news article h3 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+.wins {
+font-size: 16px;
+line-height: 1.4;
+}
+
+/* Styles for the race schedule section */
+#race-schedule {
+margin-bottom: 40px;
+}
+#countdown {
+font-size: 30px;
+font-weight: bold;
+color: darkred;
+}
+#race-schedule h2 {
+font-size: 34px;
+margin-bottom: 20px;
+}
+#race-schedule table {
+background-color: white;
+border-collapse: collapse;
+width: 100%;
+}
+#race-schedule th {
+background-color: gray;
+font-size: 18px;
+font-weight: normal;
+padding: 10px;
+text-align: left;
+}
+#race-schedule td {
+border: 1px solid gray;
+font-size: 16px;
+padding: 10px;
+}
+
+/* Style for Driver Profiles section */
+.profiles {
+background-color: lightgray;
+ padding: 20px;
+}
+.profiles h2 {
+font-size: 34;
+margin-bottom: 20px;
+}
+.drivers {
+background-color:whitesmoke;
+display: flex;
+margin-bottom: 30px;
+padding: 20px;
+}
+.drivers h3 {
+color: black;
+font-size: 22px;
+margin-right: 20px;
+}
+.drivers img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-right: 20px;
+}
+
+/* Styles for driver images with hover effect */
+#drivers {
+transition: transform 0.2s ease;
+}
+#drivers2{
+transition: transform 0.2s ease;
+}
+#drivers3 {
+transition: transform 0.2s ease;
+}
+
+/* Styles the scroll to top button */
+#scrollfun {
+ position: fixed; 
+ bottom: 20px; 
+ right: 20px; 
+ z-index: 9999; 
+ background-color: black; 
+ color: white; 
+ border: none; 
+ padding: 10px 20px; 
+ font-size: 16px; 
+ cursor: pointer; 
+}
+
+/* Styles the hover state of the scroll to top button */
+#scrollfun:hover {
+  background-color: lightblue; 
+}
+
+/* Styles the footer */
+footer {
+ background-color: #333;
+ color: white;
+ padding: 30px 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+/* Styles the links in the footer */
+footer a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ margin: 10px;
+ display: block;
+}
+
+/* Changes the text color of the link on hover */
+footer a:hover {
+ color: #aaa;
+}
+
+/* Column Styles */
+.col-8 {
+ text-align: center;
+}
+.col-2, .col-1 {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.col-2 a, .col-1 a {
+ margin: 5px 0;
+}
+
+/* Follow Us Icons Styles */
+.iconss {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.iconss a {
+ color: white;
+ font-size: 24px;
+ margin-right: 10px;
+ transition: all 0.3s ease-in-out;
+}
+.iconss a:hover {
+ color: #aaa;
+}
+.fa-brands {
+ font-size: 24px;
+}
+.fa-instagram:hover {
+ color: #e4405f;
+}
+.fa-facebook:hover {
+ color: #3b5998;
+}
+.fa-twitter:hover {
+ color: #1da1f2;
+}

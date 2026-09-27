@@ -1,0 +1,324 @@
+/* Navigation bar styles */
+nav {
+ background-color: #333; 
+ height: 60px; 
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center; 
+ margin-bottom: 1px; 
+}
+
+/* Navigation links styles */
+nav a {
+ color: white; 
+ text-decoration: none; 
+ font-size: 16px; 
+ padding: 10px; 
+ border-radius: 5px; 
+}
+
+/* Navigation link hover styles */
+nav a:hover {
+ background-color: darkgrey; 
+ color: darkred; 
+}
+
+/* Search bar styles */
+.search_bar {
+ display: flex; 
+ margin-right: 5%; 
+ width: 10%; 
+}
+
+/* Logo styles */
+.logo img {
+ float: left; 
+ width: 90px; 
+ height: 70px; 
+ margin-top: 0; 
+ margin-left: 2px; 
+}
+
+/* Header styles */
+header {
+ display: flex; 
+ align-items: center; 
+ padding: 23px; 
+ background-color: white; 
+ margin-bottom: 1em; 
+}
+
+/* Header image box hover styles */
+.header_image_box:hover {
+ transform: scale(1.1); 
+}
+
+/* Header image styles */
+.header_image_box img {
+ display: inline-block; 
+ width: 60%; 
+ height: 30%; 
+ margin-bottom: -2px; 
+ margin-left: 20px; 
+}
+
+/* Paragraph styles */
+p {
+ font-size: 80%; 
+ color: black; 
+ font-weight: bold; 
+ text-align: center; 
+ margin-left: 20px; 
+}
+
+/* Style body section */
+body {
+ background-color: lightgray;
+}
+
+/* Style the overview section */
+#overview {
+ width: 80%;
+ margin: auto;
+ padding: 20px;
+ background-color: #fff;
+ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+/* Style the content paragraphs */
+.overview_content,
+.model_content,
+.race_content,
+.news_content,
+.history_content {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Style the container divs for each content section */
+.model_content,
+.race_content,
+.news_content,
+.history_content {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+/* Add some padding to the top and bottom of the page */
+main {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+/* This is the container that holds the entire slideshow */
+#slideshow-container {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+/* Style the slideshow itself */
+#slideshow {
+max-width: 100%;
+max-height: 100%;
+object-fit: contain;
+display: block;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+/* Style the container that holds the dot indicators for the slideshow */
+#indicator-container {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 0;
+z-index: 1;
+width: 100%;
+}
+
+/* Style the dot indicators */
+.dot {
+height: 10px;
+width: 10px;
+margin: 0 5px;
+border-radius: 50%;
+background-color: #bbb;
+transition: background-color 0.3s ease;
+cursor: pointer;
+}
+
+/* Style the active dot indicator */
+.active {
+background-color: red;
+}
+
+/* Style the images and text */
+.images {
+position: relative;
+height: 100vh;
+overflow: hidden;
+}
+
+/* Style images in the slideshow */
+.images img {
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: 1;
+margin-left: -1px;
+}
+
+/* Style the text overlay on top of the images */
+.images_text {
+position:absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+font-weight: 600;
+text-align: center;
+color: white;
+padding: 20px;
+box-sizing: border-box;
+z-index: 2;
+font-size: 20px;
+}
+
+/* Style h1 */
+h1 {
+position:absolute;
+font-weight: 600;
+text-align: center;
+color: darkred;
+font-size: 220%;
+margin: 3%;
+}
+
+/* Style h2 */
+h2 {
+ font-size: 28px;
+ font-weight: bold;
+ margin-top: 30px;
+ margin-bottom: 10px;
+}
+
+/* Style the overview paragraph text */
+.overview_content {
+ font-size: 18px;
+ line-height: 1.5;
+ margin-bottom: 20px;
+}
+
+/* Style the overview section */
+#overview {
+ background-color: #f7f7f7;
+ padding: 30px;
+ margin-bottom: 40px;
+  
+}
+
+/* Styles the link in the overview section */
+#overview a {
+ color: darkgoldenrod; 
+ text-decoration: none; 
+}
+
+/* Styles the hover state of the anchor tags in overview section */
+#overview a:hover {
+ color: darkred; 
+ text-decoration: underline; 
+}
+
+/* Styles the scroll to top button */
+#scrollfun {
+ position: fixed; 
+ bottom: 20px; 
+ right: 20px; 
+ z-index: 9999; 
+ background-color: black; 
+ color: white; 
+ border: none; 
+ padding: 10px 20px; 
+ font-size: 16px; 
+ cursor: pointer; 
+}
+
+/* Styles the hover state of the scroll to top button */
+#scrollfun:hover {
+  background-color: lightblue; 
+}
+
+/* Styles the footer */
+footer {
+ background-color: #333;
+ color: white;
+ padding: 30px 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+/* Styles the links in the footer */
+footer a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ margin: 10px;
+ display: block;
+}
+
+/* Changes the text color of the link on hover */
+footer a:hover {
+ color: #aaa;
+}
+
+/* Column Styles */
+.col-8 {
+ text-align: center;
+}
+.col-2, .col-1 {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.col-2 a, .col-1 a {
+ margin: 5px 0;
+}
+
+/* Follow Us Icons Styles */
+.iconss {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.iconss a {
+ color: white;
+ font-size: 24px;
+ margin-right: 10px;
+ transition: all 0.3s ease-in-out;
+}
+.iconss a:hover {
+ color: #aaa;
+}
+.fa-brands {
+ font-size: 24px;
+}
+.fa-instagram:hover {
+ color: #e4405f;
+}
+.fa-facebook:hover {
+ color: #3b5998;
+}
+.fa-twitter:hover {
+ color: #1da1f2;
+}

@@ -1,0 +1,118 @@
+/* Navigation bar styles */
+nav {
+  background-color: #333; 
+  height: 60px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 1px; 
+}
+
+/* Navigation links styles */
+nav a {
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+/* Navigation link hover styles */
+nav a:hover {
+  background-color: darkgrey; 
+  color: darkred; 
+}
+
+/* Search bar styles */
+.search_bar {
+  display: flex; 
+  margin-right: 5%; 
+  width: 10%; 
+}
+
+/* Logo styles */
+.logo img {
+  float: left; 
+  width: 90px; 
+  height: 70px; 
+  margin-top: 0; 
+  margin-left: 2px; 
+}
+
+/* Section soon styles */
+.soon {
+  background-color: whitesmoke;
+/*  border: 1px solid #ddd;*/
+  padding: 20px;
+  text-align: center;
+}
+.soon h1 {
+  font-size: 66px;
+  margin-bottom: 225px;
+  margin-top: 225px;
+}
+
+/* Styles the footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles the links in the footer */
+footer a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ margin: 10px;
+ display: block;
+}
+
+/* Changes the text color of the link on hover */
+footer a:hover {
+ color: #aaa;
+}
+
+/* Column Styles */
+.col-8 {
+ text-align: center;
+}
+.col-2, .col-1 {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.col-2 a, .col-1 a {
+ margin: 5px 0;
+}
+
+/* Follow Us Icons Styles */
+.iconss {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.iconss a {
+ color: white;
+ font-size: 24px;
+ margin-right: 10px;
+ transition: all 0.3s ease-in-out;
+}
+.iconss a:hover {
+ color: #aaa;
+}
+.fa-brands {
+ font-size: 24px;
+}
+.fa-instagram:hover {
+ color: #e4405f;
+}
+.fa-facebook:hover {
+ color: #3b5998;
+}
+.fa-twitter:hover {
+ color: #1da1f2;
+}

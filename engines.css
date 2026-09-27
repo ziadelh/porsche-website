@@ -1,0 +1,355 @@
+/* Navigation bar styles */
+nav {
+  background-color: #333; 
+  height: 60px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 1px; 
+}
+
+/* Navigation links styles */
+nav a {
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+/* Navigation link hover styles */
+nav a:hover {
+  background-color: darkgrey; 
+  color: darkred; 
+}
+
+/* Search bar styles */
+.search_bar {
+  display: flex; 
+  margin-right: 5%; 
+  width: 10%; 
+}
+
+/* Logo styles */
+.logo img {
+  float: left; 
+  width: 90px; 
+  height: 70px; 
+  margin-top: 0; 
+  margin-left: 2px; 
+}
+
+/* Styles for the title sentence */
+.title_sentence {
+  color: black;
+  text-align: center;
+}
+
+/* Styles for the h1 element inside title_sentence */
+.title_sentence h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: darkred; 
+  padding-bottom: 1rem;
+}
+
+/* Styles for the overview section */
+.overview{
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+/* Styles for the engine evolution section */
+#engine_evolution {
+  background-color: darkgrey;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+/* Styles for h2 elements inside the evolution section */
+.evolution h2 {
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+/* Styles for the "air" section */
+.air {
+display: flex;
+align-items: center;
+background-color: darkgray;
+}
+.air p {
+max-width: 50%; 
+margin-right: 15px;
+text-align: center;
+margin-left: 15px;
+}
+.air h2 {
+max-width: 50%; 
+text-align: center;
+margin-left: 15px;
+}
+.air img {
+max-width: 50%; 
+margin-right: 20px;
+}
+
+/* Styles for the "water" section */
+.water {
+margin-top: 0.5%;
+display: flex;
+flex-direction: row-reverse; 
+align-items: center;
+background-color: lightgray;
+}
+.water p {
+max-width: 50%; 
+margin-right: 15px;
+text-align: center;
+}
+.water h2 {
+margin-right: 8px;
+max-width: 50%; 
+text-align: center;
+}
+.water img {
+max-width: 50%; 
+margin-right: 20px;
+}
+
+/* Styles for the "hybrid" section */
+.hybrid {
+margin-top: 0.5%;
+display: flex;
+/ flex-direction:row-reverse; */
+align-items: center;
+background-color: darkgray;
+}
+.hybrid p {
+max-width: 50%; 
+margin-right: 15px;
+text-align: center;
+}
+.hybrid h2 {
+margin: 7px;
+max-width: 50%; 
+text-align: center;
+}
+.hybrid img {
+max-width: 50%; 
+margin-right: 20px;
+}
+
+/* Styles for the "electric" section */
+.electric {
+margin-top: 0.5%;
+display: flex;
+flex-direction: row-reverse; 
+align-items: center;
+background-color: lightgray;
+}
+.electric p {
+max-width: 50%; 
+margin-right: 15px;
+text-align: center;
+}
+.electric h2 {
+margin-right: 8px;
+max-width: 50%; 
+text-align: center;
+}
+.electric img {
+max-width: 50%; 
+margin-right: 20px;
+}
+
+/* Flat styling */
+.flat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.flat p {
+ max-width: 50%;
+ margin-right: 15px;
+ text-align: center;
+}
+.flat h2 {
+ max-width: 50%;
+ text-align: center;
+}
+.flat img {
+ width: 50%;
+}
+
+/* V10 styling */
+.v10 {
+ margin-top: 0.5%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: whitesmoke;
+}
+.v10 p {
+ max-width: 50%;
+ margin-right: 15px;
+ text-align: center;
+}
+.v10 h2 {
+ max-width: 50%;
+ text-align: center;
+}
+.v10 img {
+ width: 50%;
+}
+
+/* Porsche 917 styling */
+.porsche_917 {
+ margin-top: 0.5%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: whitesmoke;
+}
+.porsche_917 p {
+ max-width: 50%;
+ margin-right: 15px;
+ text-align: center;
+}
+.porsche_917 h2 {
+ max-width: 50%;
+ text-align: center;
+}
+.porsche_917 img {
+ width: 50%;
+}
+
+/* Style for iconic engines section */
+#iconic_engines {
+ background-color: lightgray;
+ padding: 50px;
+}
+.iconic h2 {
+ font-size: 28px;
+ margin-top: 50px;
+}
+.iconic img {
+ width: 100%;
+ margin-top: 20px;
+}
+.iconic_eng {
+ margin-top: 20px;
+ font-size: 18px;
+ line-height: 1.5;
+}
+
+/* Style for engine manufacturing section */
+#manufacturing {
+ background-color: darkgray;
+ padding: 50px;
+}
+#manufacturing p:first-of-type {
+ margin-top: 0;
+}
+
+/* Style for future of Porsche engines section */
+#future {
+ margin-bottom: 10px;
+ margin-top: 3px;
+ background-color: lightgray;
+ padding: 50px;
+}
+#future p:first-of-type {
+ margin-top: 0;
+}
+
+
+/* Styles the scroll to top button */
+#scrollfun {
+ position: fixed; 
+ bottom: 20px; 
+ right: 20px; 
+ z-index: 9999; 
+ background-color: black; 
+ color: white; 
+ border: none; 
+ padding: 10px 20px; 
+ font-size: 16px; 
+ cursor: pointer; 
+}
+
+/* Styles the hover state of the scroll to top button */
+#scrollfun:hover {
+  background-color: lightblue; 
+}
+
+/* Styles the footer */
+footer {
+ background-color: #333;
+ color: white;
+ padding: 30px 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+/* Styles the links in the footer */
+footer a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ margin: 10px;
+ display: block;
+}
+
+/* Changes the text color of the link on hover */
+footer a:hover {
+ color: #aaa;
+}
+
+/* Column Styles */
+.col-8 {
+ text-align: center;
+}
+.col-2, .col-1 {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.col-2 a, .col-1 a {
+ margin: 5px 0;
+}
+
+/* Follow Us Icons Styles */
+.iconss {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.iconss a {
+ color: white;
+ font-size: 24px;
+ margin-right: 10px;
+ transition: all 0.3s ease-in-out;
+}
+.iconss a:hover {
+ color: #aaa;
+}
+.fa-brands {
+ font-size: 24px;
+}
+.fa-instagram:hover {
+ color: #e4405f;
+}
+.fa-facebook:hover {
+ color: #3b5998;
+}
+.fa-twitter:hover {
+ color: #1da1f2;
+}
